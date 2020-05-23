@@ -33,6 +33,6 @@ while tmpTweets[-1].created_at > startDate and tmpTweets[-1] != last_tweet:
 
 
 for tweet in tweets:
-    print("Encountered "+str(id))
-    api.destroy_status(str(id))
-    print("Deleted "+str(id))
+    print("Encountered "+str(tweet))
+    api.destroy_status(str(tweet))
+    print("Deleted "+str(tweet))
